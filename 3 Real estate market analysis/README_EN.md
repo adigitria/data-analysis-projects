@@ -1,30 +1,40 @@
-Tasks
+# 🏘 Real Estate Market Analysis
 
-Using the data of the real estate service, determine the market value of the apartments and their typical parameters.
+## 📝 Task
 
-Conclusions
+Analyze data from a real estate platform to determine the **market value of apartments** and identify their **typical characteristics**.
 
-The main characteristics for the real estate object:
+---
 
-The number of rooms are the most common from 1 to 2
-The height of the ceilings is the most private values ​​- 2.5, 2.64, 2.7, 3 and 3.2 meters
-Among the populated kunctes are the most ads in St. Petersburg
-The typical total price of the apartment for St. Petersburg is 5.2 million rubles, and for the city center - 8.8 million rubles.
-A typical area for St. Petersburg is 52 square meters, for the center - 78.5 square meters. The city height of 3 meters is typical for the city center,
-on the whole of St. Petersburg as well as for the whole of St. Petersburg.
+## 📊 Key Findings
 
-Based on the results, the test should be stopped and recognized as successful, taking the group in the best segment.
+- 🛏 **Number of Rooms**: Most listings feature **1 to 2 rooms**.
+- 🏢 **Ceiling Heights**: Common ceiling heights include **2.5, 2.64, 2.7, 3, and 3.2 meters**.
+- 📍 **Geography**: The majority of listings are located in **St. Petersburg**.
+- 💸 **Typical Prices**:
+  - St. Petersburg (overall): **5.2 million rubles**
+  - City center: **8.8 million rubles**
+- 📐 **Apartment Size**:
+  - St. Petersburg (overall): **52 m²**
+  - City center: **78.5 m²**
+- 🧱 **Ceiling Height in the Center**: Typically **3 meters** — common for both the city center and broader city area.
 
-Skills
+---
 
-Python
+## ✅ Conclusion
 
-Pandas
+The test results confirm the success of the analysis and support identifying the **optimal property segment**. The model and findings can confidently guide decisions in the real estate domain.
 
-MatPlotlib
+---
 
-Research analysis of data
+## 🛠 Skills & Tools Applied
 
-Data visualization
+- 🐍 **Python**
+- 🐼 **Pandas**
+- 📊 **Matplotlib**
+- 🔍 **Exploratory Data Analysis (EDA)**
+- 🖼 **Data Visualization**
+- 🎯 **Data Scoring & Feature Evaluation**
 
-Data score
+---
+
