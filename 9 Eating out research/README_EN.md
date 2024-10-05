@@ -1,27 +1,53 @@
-TASK
+# 🍽 Public Catering Market Research
 
-Research on the public catering market based on open data, preparation of a presentation for investors.
+## 📝 Task
 
-Conclusions
+Conduct an analysis of the **public catering market** using **open data**, and prepare insights for an **investor presentation** regarding potential business opportunities.
 
-- by the number of objects, cafes, dining rooms and restaurants are most common;
-- Nesette institutions are 4 times more than network, among which the most common cafes with absolute calculation and fast food and restaurants are calculated
-for the total number; The network is most characterized by the spread of a large number of establishments with a small number of seats;
+---
 
-- in Moscow 551 Street with only one nutritional object, there are such streets in almost any area, including in central areas with great cross -country ability; We revealed that the most streets with one institution are in the old central areas.
-- The new cafe is best to place the street on a less loaded institution, but in the Central District: Tagansky, Khamovniki, Basmann, Tver, Presnensky,
-With a landing of 25-30 people. It is better to start from one institution and, with an increase in its popularity, think about creating a network.
-We recommend that you conduct a more detailed distribution of institutions through the streets, depending on their size, discarding those institutions that do not compete
-New cafe (for example, dining rooms or shops).
+## 📊 Key Findings
 
-Skills
+- 🏪 **Popular Venue Types**: 
+  - **Cafés, dining halls, and restaurants** are the most widespread formats.
+  
+- 🕸 **Chain vs Non-Chain**:
+  - **Non-chain establishments** outnumber chain ones **by 4×**.
+  - Among chains, **cafés and fast food venues** are the most common.
+  - Chains typically consist of **many small venues** (low seating capacity).
 
-Python
+- 🗺 **Street-Level Analysis**:
+  - **551 streets in Moscow** have only **one food venue**, even in **central, high-traffic districts**.
+  - The **highest concentration** of such streets is found in **historic central areas**.
 
-Pandas
+- 📍 **Location Recommendation**:
+  - The optimal location for a new café is a **central district** with **fewer competitors**, such as:
+    - **Tagansky**
+    - **Khamovniki**
+    - **Basmanny**
+    - **Tver**
+    - **Presnensky**
+  - Ideal venue size: **25–30 seats**.
+  - Suggested strategy: **start with one location**, and scale into a **chain** as popularity grows.
 
-Seaborn
+- 🚫 **Competition Filtering**:
+  - It's advised to **exclude non-competing venues** (e.g., dining halls, food stores) in market assessments.
 
-Plotly
+---
 
-Data visualization
+## ✅ Conclusion
+
+The study reveals **strong potential for targeted entry** into under-served yet high-traffic central areas in Moscow. A data-informed, **small-scale start** with plans to expand as demand grows is the optimal strategy.
+
+---
+
+## 🛠 Skills & Tools Applied
+
+- 🐍 **Python**
+- 🐼 **Pandas**
+- 📊 **Seaborn**
+- 📈 **Plotly**
+- 🎨 **Data Visualization**
+
+---
+
