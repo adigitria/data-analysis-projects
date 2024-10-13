@@ -1,35 +1,55 @@
-Tasks
+# 📈 Product Analytics & Customer Value Analysis
 
-Based on data on the site visits to study how people use the product when they begin to buy how much money each client brings when he pays off.
+## 📝 Task
 
-Conclusions
+Analyze **user behavior based on website visit data**: how users interact with the product, when they make purchases, and how much revenue each client generates over time.
 
-- The site has a good level of audience involvement, in December the largest number of unique users arrive, the average user session lasts a minute;
+---
 
-- conducted cohort analysis and Retention Rate showed that users return to the site over time;
+## 📊 Key Findings
 
-- Business behavior of visitors: Most often, visitors spend one minute on the site before the purchase, but in "average" since the first visit to the site
-Prior to the purchase, it takes 16 minutes, usually users make 1-2 purchases for the study period, they rarely return again;
+- 👥 **User Engagement**:
+  - The site shows **high engagement**.
+  - Peak traffic observed in **December**, with the **highest number of unique users**.
+  - Average session duration: **1 minute**.
 
-- The average purchase check reaches the maximum value in December, which is discussed by the festive season;
-The average check for the entire period under consideration is 4.96 cu
+- 🔄 **Cohort & Retention Analysis**:
+  - Users tend to **return over time**, showing positive **retention trends**.
 
-- The lifetime value of the client (LTV) showed that the cohorts of June and September 2017 are the most valuable;
-In order for investments in marketing to pay off, the attraction of one buyer should not exceed 7.97 cu per month;
+- 🛒 **Customer Behavior**:
+  - Visitors typically spend **1 minute** before purchasing.
+  - However, the average **time from first visit to purchase** is **16 minutes**.
+  - Users usually make **1–2 purchases** during the observed period, with **low repeat purchase frequency**.
 
-- 1 and 5 sources of advertising paid off, 6 and 7 - almost do not attract visitors, the maximum amount of funds was spent on 3 source
-And he most of all paid off, although he attracts many new visitors.
+- 💰 **Average Check**:
+  - Peaks in **December**, likely due to the **holiday season**.
+  - Overall average check across the period: **4.96 CU**.
 
-Skills
+- 📉 **Customer Lifetime Value (LTV)**:
+  - Highest-value cohorts: **June and September 2017**.
+  - To ensure profitability, **customer acquisition cost** should not exceed **7.97 CU/month**.
 
-Python
+- 📣 **Advertising Source Effectiveness**:
+  - **Sources 1 and 5** were profitable.
+  - **Sources 6 and 7** had poor performance with minimal traffic.
+  - **Source 3** had the **highest spend** and **strongest ROI**, attracting the most new users.
 
-Pandas
+---
 
-MatPlotlib
+## ✅ Conclusion
 
-Coherent analysis
+The platform demonstrates **solid user engagement**, especially around December. **Cohort and unit economics analysis** suggest that acquisition efforts should focus on high-performing advertising channels and user segments, keeping acquisition costs below the LTV threshold.
 
-Unit Economics
+---
 
-Product metric
+## 🛠 Skills & Tools Applied
+
+- 🐍 **Python**
+- 🐼 **Pandas**
+- 📊 **Matplotlib**
+- 🔁 **Cohort Analysis**
+- 💸 **Unit Economics**
+- 📉 **Product Metrics**
+
+---
+
