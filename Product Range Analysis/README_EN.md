@@ -1,57 +1,72 @@
-** Graduation project **
+# 🎓 Graduation Project: Product Assortment Optimization
 
-Task
+## 📝 Task
 
-Determine which products are included in the main and additional assortment in order to correctly offer customers additional goods and optimize purchases.
+Classify the product assortment into **core and additional categories** to:
+- Offer smarter **product recommendations**
+- Optimize **purchasing strategy**
 
-Conclusions
+---
 
-The entire assortment of the store is classified from the position of ABS-analysis according to the following criteria (in brackets the range of categories in the corresponding units):
+## 📊 Key Findings (ABC-Analysis)
 
-Category A is the average in terms of the number of unique goods category - 609 goods (26%), where the most commonly sold and cheap goods are located,
-With the highest average check, average revenue, but at the same time the smallest number of orders.
+### 📦 Category A
+- **609 items (26%)**
+- Frequently sold, **low-priced** products
+- **Highest average check and revenue per product**
+- **Lowest total order volume**
 
-Category B is the smallest category in terms of the number of goods - 593 goods (25%), medium -sized goods with cheap and medium price have got into this group,
-With a small average check, small revenue and the average number of orders.
+### 📦 Category B
+- **593 items (25%)**
+- Mix of **cheap and mid-range** products
+- **Low average check and revenue**
+- Moderate order frequency
 
-Category C is the largest category in terms of the number of goods - 1134 goods (49%), in this category were less likely to be sold products of all price categories,
-With a normal average check, the large revenue and the number of orders.
+### 📦 Category C
+- **1134 items (49%)**
+- Infrequently sold, but **diverse price range**
+- Normal average check
+- **Highest total revenue and orders** due to variety and volume
 
-It follows that the online store specializes in piece but inexpensive products, therefore, such a wide range is presented, where each buyer
-He will find something for himself even in a single copy.
+🧠 Insight: The store excels at offering **unique, low-cost, high-variety items**, enabling nearly every customer to find something of interest.
 
-We appropriated quantitative categories of ABC the same categories in revenue.
+---
 
-Category AB - High goods for the number of sales and average in revenue.
+## 💡 ABC Revenue-Based Segmentation
 
-Category of the Armed Forces - goods with an average level of turnover and low volume of revenue.
+- **AB**: High sales count, medium revenue
+- **BC**: Medium turnover, low revenue
+- **CA**: Sold in small quantities but **collectively generate the most revenue**
 
-Category SA - goods are sold 1 piece and each of them brings a little profit, but in total this category brought the most revenue.
-Perhaps these are piece, but often purchased goods, or some unique goods for a narrow number of buyers.
+➡️ CA category may include **niche or frequently repurchased items** with strong cumulative impact.
 
-Recommendations
+---
 
-The leading category of goods is category C, it brings the most revenue, despite the single sales of the goods.
-In this category, you need to maintain a wide range and monitor its update. You can set the task to increase revenue to 80%.
-Category in the most "suffering", it is necessary to review the range of this category. In category A it is necessary to maintain the volume of revenue,
-And also monitor the supply, because In this category there are goods sold in an amount of more than 4 pieces.
+## ✅ Recommendations
 
-Skills
+- 🔹 **Focus on Category C**:
+  - Drives most of the store’s revenue
+  - Maintain a **broad and fresh assortment**
+  - Set a target to increase revenue share to **80%**
 
-Python
+- 🔸 **Review Category B**:
+  - Underperforming group — may need **assortment optimization**
 
-Numpy
+- 🔹 **Maintain Category A**:
+  - Monitor **stock availability** closely
+  - Essential for **frequently purchased, high-check items**
 
-MatPlotlib
+---
 
-Seaborn
+## 🛠 Skills & Tools Applied
 
-Plotly
+- 🐍 **Python**
+- 📐 **NumPy**
+- 📊 **Matplotlib**, **Seaborn**, **Plotly**
+- 🔍 **Regular Expressions**
+- 🧮 **ABC Analysis**
+- ✅ **Statistical Hypothesis Testing**
+- 📈 **Scipy**
 
-Scipy
+---
 
-Regular Expression
-
-ABC analysis
-
-Checking statistical hypotheses
