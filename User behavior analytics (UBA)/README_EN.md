@@ -1,36 +1,49 @@
-Based on the use of a mobile application for the sale of food products, to analyze a sales funnel, as well as evaluate the results of A/A/B testing.
+# 📱 Mobile App Funnel Analysis & A/A/B Testing
 
-Conclusions
+## 📝 Task
 
-- About 40% of users do not pass further than the main screen (only 62.9%, 61.6% and 61.5%, respectively, for groups 246, 247 and 248, go to the screen with the choice of goods),
-And less than half of users reach successful payment (48.9% 6 46.7% and 47.4%, respectively, for groups 246, 247 and 248);
+Analyze **user behavior** within a mobile food delivery app by:
+- Evaluating the **sales funnel**
+- Conducting an **A/A/B test** to assess the impact of a visual change (font update)
 
-- checking statistical hypotheses showed that there is no statistically significant difference between the samples;
+---
 
-- Based on the results of the a/a/b - test, we note that the change in the font to the behavior of users did not have a significant effect,
-The changes made will definitely not reduce the activity of users.
-We recommend that you figure out why the font was changing for - if it is only a visual moment, then it should not be changed if the font change is due
-technical problems, the solution of which can improve the application of the application, then the changes should be applied;
-We also recommend checking the operation of the main screen, are there any errors in display, because After this event, we lose the largest number of users.
+## 📊 Key Findings
 
-Skills
+- 🔻 **Funnel Drop-off**:
+  - ~40% of users do **not proceed past the main screen**
+  - Only **~62%** of users reach the product selection screen (Groups 246, 247, 248: 62.9%, 61.6%, 61.5%)
+  - Less than **50% complete a purchase** (Groups: 48.9%, 46.7%, 47.4%)
 
-A/B testing
+- 🧪 **A/A/B Test Results**:
+  - No **statistically significant difference** between groups
+  - **Font change** had **no measurable impact** on user behavior
 
-Python
+- 🧠 **Recommendations**:
+  - Investigate the **purpose of the font change**:
+    - If **purely visual**, consider reverting
+    - If addressing **technical/display issues**, proceed with changes
+  - Urgently review the **main screen experience**:
+    - High drop-off indicates potential UX or performance issues
 
-Pandas
+---
 
-MatPlotlib
+## ✅ Conclusion
 
-Seaborn
+While the font update did not harm engagement, it also didn’t improve it. The key issue lies in the **main screen**, where most users exit the funnel. This area should be prioritized for **UX testing and optimization**.
 
-Event analytics
+---
 
-Product metric
+## 🛠 Skills & Tools Applied
 
-Plotly
+- 🧪 **A/B Testing**
+- 🐍 **Python**
+- 🐼 **Pandas**
+- 📊 **Matplotlib**, **Seaborn**, **Plotly**
+- 🔍 **Event Analytics**
+- 📈 **Product Metrics**
+- ✅ **Statistical Hypothesis Testing**
+- 🎨 **Data Visualization**
 
-Checking statistical hypotheses
+---
 
-Data visualization
