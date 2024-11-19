@@ -1,10 +1,10 @@
-# 📱 Mobile App Funnel Analysis & A/A/B Testing
+# 📱 Mobile App Funnel Analysis & A/B Testing
 
 ## 📝 Task
 
 Analyze **user behavior** within a mobile food delivery app by:
 - Evaluating the **sales funnel**
-- Conducting an **A/A/B test** to assess the impact of a visual change (font update)
+- Conducting an **A/B test** to assess the impact of a visual change (font update)
 
 ---
 
