@@ -43,6 +43,6 @@ Behavioral analysis of users to support product improvement and business decisio
 
 Each project folder includes:
 - A `.ipynb` notebook with the full analysis
-- A `README_EN.md` file with detailed explanation and context in English
+- A `README.md` file with detailed explanation and context in English
 
 ---
