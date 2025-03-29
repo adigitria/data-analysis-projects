@@ -46,3 +46,4 @@ Each project folder includes:
 - A `README.md` file with detailed explanation and context in English
 
 ---
+
