@@ -1,34 +1,62 @@
-Tasks
+ # 🧠 Predicting Customer Churn for a Fitness Club
 
-Using historical data on the sales of computer games, assessment of users and experts, genres and platforms, identify patterns,
-Determining the success of the game.
+## 📝 Project Overview
 
-Conclusions
+A fitness club chain is developing a **data-driven customer retention strategy**. The main business challenge is **reducing customer churn**, and to address it, the club's client department has digitized thousands of customer profiles for analysis.
 
-- the largest sales for the entire period of research by the game "WII Sports" (82.54 million copies sold);
-- leading platforms in terms of sales: Play Station (PS2, PS3, PS), Xbox (X360), Nintendo (WII, DS);
-- potentially profitable platforms for next year - PS4, PS3, Xone, X360, 3DS;
-- Buyers are more focusing on critics estimates than user ratings, but there is not too strong dependence there;
-- All regions except Japan are characterized by games in the genres of Action, Shooter, Sports, Role-Playing, MISC,
-For Japan, its TOP according to the genres is a large margin of Role -Playing and Action, then MISC, Simulation, Fighting.
-Obviously, the most popular are “Games for adults” and “Games for all”, respectively, they have large sales.
-- Checking the hypotheses showed that the average user ratings for the Xone and PC platforms are the same,
-For the genres of Action and Sports, user ratings are the same.
+---
 
-Skills
+## 🎯 Project Goals
 
-Python
+- 📉 **Predict** the probability of churn for each customer (on a monthly basis)
+- 👤 **Segment** the customer base and create typical client portraits
+- 🔍 **Identify key factors** influencing churn
+- 🧾 **Deliver actionable insights** and recommendations:
+  - Define **target groups** for retention efforts
+  - Propose **churn reduction measures**
+  - Suggest other strategies to **improve customer engagement**
 
-Pandas
+---
 
-Numpy
+## 🔬 Methodology
 
-MatPlotlib
+- 🧹 **Data Exploration & Cleaning**
+- 📊 **Exploratory Data Analysis (EDA)**
+- 🤖 **Machine Learning Modeling** (Logistic Regression, Random Forest, etc.)
+- 📈 **Model Evaluation** using accuracy, precision, recall, and ROC AUC
+- 🧠 **Cluster Analysis** to build customer segments
 
-Data score
+---
 
-Research analysis of data
+## 📊 Key Findings
 
-Descriptive statistics
+- The **most influential features** impacting churn include:
+  - Contract type and duration
+  - Number of visits per week
+  - Participation in group classes
+- Several **distinct customer groups** were identified based on activity level, contract type, and membership duration
+- The **best-performing model** achieved high precision and recall, enabling effective prediction of likely churners
 
-Checking statistical hypotheses
+---
+
+## ✅ Recommendations
+
+- Offer personalized retention campaigns for **high-risk groups**
+- Promote **long-term contracts** and **engaging group activities**
+- Focus on **consistent communication** and **loyalty rewards** for active clients
+
+---
+
+## 🛠 Skills & Tools Applied
+
+- 🐍 **Python**
+- 📊 **Pandas**, **NumPy**
+- 📈 **Matplotlib**, **Seaborn**
+- ⚙️ **Scikit-learn**
+- 🤖 **Machine Learning**
+- 📌 **Clustering & Segmentation**
+- 📉 **Churn Prediction**
+- 📊 **Business Analytics**
+
+---
+
