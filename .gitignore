@@ -3,3 +3,5 @@ git_renamer_user.sh
 rewrite_env_filter.sh
 upd_commits_history.sh
 .idea
+.env
+
