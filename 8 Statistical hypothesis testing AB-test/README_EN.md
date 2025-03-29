@@ -1,27 +1,41 @@
-Tasks
+# 🛒 E-commerce A/B Testing & Hypothesis Prioritization
 
-Using the data of the online store to prioritize hypotheses, evaluate the results of A/B testing with various methods.
+## 📝 Task
 
-Conclusions
+Analyze data from an online store to **prioritize business hypotheses** and **evaluate the results of A/B testing** using various statistical methods.
 
-- there is a statistically significant difference in the conversion between groups both in “raw” data and after filtering of anomalies;
-- both in the "raw" and in "purified" data there is no statistically significant difference in the average check between the groups, so the resulting relative
-The difference between the average checks of groups A and B is considered random;
-- a schedule for the difference between the conversion between groups reports that the results of group B are better than the group A: tend to growth or recorded near average value;
-- the schedule of the distinction of the average check hesitates, anomalies were investigated by a benevolence;
+---
 
-Based on the results, the test should be stopped and recognized as successful, taking the group in the best segment.
+## 📊 Key Findings
 
-Skills
+- ✅ **Conversion Rates**:
+  - Statistically significant **difference in conversion** observed between groups **both in raw and filtered data**.
+  - Group **B outperforms Group A**, showing a steady upward trend or values around a higher average.
+  
+- 💳 **Average Purchase Value**:
+  - No statistically significant difference in **average order value** between the groups — in both raw and cleaned datasets.
+  - Any observed difference is likely **random**.
 
-Python
+- 📈 **Visual Analysis**:
+  - Conversion rate charts highlight **Group B's superiority**.
+  - Average check plots show **instability**, which was further examined by identifying and filtering out anomalies.
 
-Pandas
+---
 
-MatPlotlib
+## ✅ Conclusion
 
-Scipy
+The A/B test results show that **Group B performs better in terms of conversion**. Despite no significant change in average order value, the **improvement in conversion is meaningful**. Therefore, the test is considered **successful**, and **Group B should be selected** as the better-performing variant.
 
-A/B testing
+---
 
-Checking statistical hypotheses
+## 🛠 Skills & Tools Applied
+
+- 🐍 **Python**
+- 🐼 **Pandas**
+- 📊 **Matplotlib**
+- 🔬 **SciPy**
+- 🧪 **A/B Testing**
+- 📈 **Statistical Hypothesis Testing**
+
+---
+
